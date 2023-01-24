@@ -7,14 +7,14 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="Image Processing",
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    author="Raidan Nunes de Oliveira",
+    author_email="raidan.nunes31@gmail.com",
+    description="Pacote de Processamento de Imagem",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/Raidan31/package-template.git",
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
